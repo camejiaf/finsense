@@ -30,7 +30,11 @@ export default function Home() {
       console.log('Fetching trending stocks from frontend...');
 
       // Simple fetch with timeout using Promise.race
-      const fetchPromise = fetch('http://localhost:8000/api/tickers', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL
+        ? `${process.env.NEXT_PUBLIC_API_URL}/api/tickers`
+        : 'http://localhost:8000/api/tickers';
+
+      const fetchPromise = fetch(apiUrl, {
         headers: {
           'Content-Type': 'application/json',
         }

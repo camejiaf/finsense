@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "FinSense - Professional Financial Analysis",
   description: "Advanced DCF valuation and Monte Carlo analysis for stock investments",
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.svg',
   },
 };
 
@@ -28,7 +28,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body
