@@ -99,3 +99,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#chatgpt helped me make the start/set up files in case you start seeing a lot of emojis
