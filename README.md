@@ -1,14 +1,14 @@
 # FinSense 💰
 
-Yo! This is my financial analysis app that I built because I got tired of spreadsheets and wanted something that actually looks good.
+This is my financial analysis app that I built because I got tired of spreadsheets and wanted something chill.
 
-It's basically a DCF calculator on steroids - does all the fancy Monte Carlo stuff that investment banks use, but without the $5000 Bloomberg terminal subscription 😎
+It's basically a DCF calculator on steroids.
 
 ## What's Cool About It
 
 ### The Good Stuff
 - **DCF Analysis** - Discounted cash flow modeling that actually makes sense
-- **Real Stock Data** - Pulls live prices from Alpha Vantage (free tier, baby!)
+- **Real Stock Data** - Pulls live prices from Alpha Vantage 
 - **Demo Mode** - When the API runs out of calls, it switches to realistic fake data
 - **Export Reports** - Spit out Excel/PDF reports that look professional
 - **History Tracking** - Remembers your last few analyses so you can compare
@@ -74,7 +74,7 @@ ALPHA_VANTAGE_API_KEY=your_actual_api_key_here
 MIN_REQUEST_INTERVAL=12
 ```
 
-**🔒 Security Note**: Never commit your `.env` file to version control!
+**🔒 Security Note**: Never commit your `.env` 
 
 ### Running It
 ```bash
@@ -117,10 +117,10 @@ MIN_REQUEST_INTERVAL=12
 ### Demo Mode
 - Kicks in automatically when the API runs out of calls
 - Uses realistic fake data that rotates every hour
-- Shows a big "DEMO MODE" banner so you know what's up
+- Shows a "DEMO MODE" banner 
 
 ### History Feature
-- Saves your last 10 analyses automatically
+- Saves your last analyses automatically
 - Compare different scenarios side by side
 - Export any previous analysis
 
@@ -135,7 +135,7 @@ MIN_REQUEST_INTERVAL=12
 ### Error Handling
 - Catches API errors and doesn't crash
 - Falls back to demo data gracefully
-- Shows actual error messages (not just "something went wrong")
+- Shows actual error messages 
 - Retries failed requests with smart delays
 
 ### Performance
@@ -160,34 +160,7 @@ MIN_REQUEST_INTERVAL=12
 ### Model Health Check
 - **Terminal Value Share**: 67%
 - **Duration**: 4.2 years
-- **Health Flags**: None (your model is solid!)
 
-## 🎭 Demo Mode & Showcase Features
-
-### **Perfect for Employers/Demos**
-- **🎭 Demo Mode**: Runs with realistic mock data - no API keys needed!
-- **📊 Realistic Data**: Uses actual market patterns and realistic financial data
-- **🔄 Hourly Rotation**: Demo data changes every hour to keep it interesting
-- **📈 Full Analysis**: Complete DCF calculations with Monte Carlo simulations
-- **📋 Export Ready**: Generate professional Excel/PDF reports
-
-### **Enterprise Security Features** (Ready to Activate)
-- **🔐 JWT Authentication**: Professional user login system with roles
-- **🛡️ Security Headers**: XSS protection, HTTPS enforcement, CSP policies
-- **📝 Request Logging**: Structured logging for monitoring and debugging
-- **⚡ Rate Limiting**: Advanced rate limiting with user context
-- **🔍 Input Validation**: Comprehensive validation on all endpoints
-- **🚫 Error Handling**: Secure error responses that don't leak information
-
-### **Security Best Practices**
-- ✅ Never commit `.env` files to version control
-- ✅ Use environment variables for all sensitive data
-- ✅ Validate all user inputs
-- ✅ Rate limit API endpoints
-- ✅ Don't expose internal system paths in errors
-- ✅ Professional authentication system ready
-
-## Ready to Ship
 
 ### Production Stuff
 - Environment variables for config
