@@ -1,8 +1,6 @@
-# FinSense 💰
+# FinSense 
 
 This is my financial analysis app that I built because I got tired of spreadsheets and wanted something chill.
-
-It's basically a DCF calculator on steroids.
 
 ## What's Cool About It
 
@@ -86,7 +84,7 @@ MIN_REQUEST_INTERVAL=12
 # Frontend: cd frontend && npm run dev
 ```
 
-## The Math Stuff
+## The Math
 
 ### Monte Carlo Magic
 - **Fat Tails** - Uses Student's t-distribution because markets are wild
